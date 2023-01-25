@@ -32,4 +32,5 @@
 .delete_button_back {
   background-color: transparent;
   border-width: 0px;
+  width: 25%;
 }

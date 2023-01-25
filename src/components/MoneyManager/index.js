@@ -191,12 +191,13 @@ class MoneyManager extends Component {
               </button>
             </form>
           </div>
-          <div className="bottom_container_one bottom_container_two  bottom_container_one_extra">
+          <div className="bottom_container_one bottom_container_two bottom_container_one_extra">
             <h1 className="bottom_container_one_heading">History</h1>
             <div className="bottom_container_two_container">
               <p className="bottom_container_two_container_main_para">Title</p>
               <p className="bottom_container_two_container_main_para">Amount</p>
               <p className="bottom_container_two_container_main_para">Type</p>
+              <p className="bottom_container_two_container_main_para">{}</p>
             </div>
             {list.map(eachItem => (
               <TransactionItem
